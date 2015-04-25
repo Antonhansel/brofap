@@ -1,6 +1,12 @@
 'use strict';
+// Loading other modules
+var getToken = require('./lib/authenticate');
+var checkPosts = require('./lib/checkPosts');
 
-// Let's instantiate the reddit client API
-var reddit = require('redwrap');
+function initialize() {
+  getToken(function() {
+    checkPosts();
+  });
+};
 
-
+initialize();

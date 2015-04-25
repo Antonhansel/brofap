@@ -1,0 +1,26 @@
+node_modules/*
+.DS_Store
+*.pid
+*.log
+*.swp
+*.sock
+*.gz
+*.pyc
+*.rdb
+*.egg-info
+
+# IntelliJ Project files
+*.iml
+*.ipr
+*.iws
+.idea
+
+# Sublime files
+*.sublime-*
+
+# Coverage
+coverage/
+
+# dotenv
+.env
+newrelic_agent.log
