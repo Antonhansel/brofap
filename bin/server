@@ -1,0 +1,5 @@
+#!/usr/bin/env node
+// Loading config
+var config = require('../config/index');
+// Launching the actual bot
+var app = require('../app');
