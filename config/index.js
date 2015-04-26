@@ -12,7 +12,7 @@ var config = {
     Authorization: '',
     'User-Agent': 'BrofapClient/0.1 By AntonHansel'
   },
-  sub: ['nsfw']
+  subs: ['nsfw']
 };
 
 // exposing
